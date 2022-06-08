@@ -21,16 +21,18 @@ jobs:
         run: gem install awesome_bot
       - name: Check links with awesomebot
         run: awesome_bot README.md --allow-redirect --base-url="https://github.com/ilanfriedman/Awesome-Adobe-Plugins/blob/master/"
-  spell-check:
+  spell-checking:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.4.2
-      - name: Spell Check Time!
-        uses: rojopolis/spellcheck-github-actions@0.24.0
+      - name: Initialize Node
+        uses: actions/setup-node@v1
         with:
-          task_name: Markdown
-          source_files: README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md
-          config_path: .github/workflows/configs/.spellcheck.yaml
+          node-version: 14
+      - name: Install CSpell
+        run: npm install -g cspell
+      - name: Run CSpell
+        run: cspell --config ./.github/workflows/configs/.cspell.yaml "**/*.md" --show-suggestions --git-ignore
   markdown-lint:
     runs-on: ubuntu-latest
     steps:

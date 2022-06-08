@@ -1,0 +1,11 @@
+dictionaryDefinitions:
+  - name: author-names
+    path: "./.github/workflows/configs/wordlists/author-names.txt"
+  - name: brand-names
+    path: ".github/workflows/configs/wordlists/brand-names.txt"
+  - name: other-words.txt
+    path: ".github/workflows/configs/wordlists/other-words.txt"
+  - name: project-names
+    path: ".github/workflows/configs/wordlists/project-names.txt"
+ignorePaths:
+  - "**/LICENSE.md"
