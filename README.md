@@ -20,10 +20,13 @@
   Just as a little preface, this list is very much a work in progress. At the moment, the list will mostly focus on plugins for *Lightroom Classic*, *Photoshop*, and *Illustrator* since they're the ones I'm most familiar, but with contributions the list can hopefully expand to cover all Adobe products (at least the ones that support plugins). Anyway. Now that that's over, let's get onto the list.
 
 ## <img src="https://user-images.githubusercontent.com/90789003/172677589-2bed17dd-147c-4427-a28c-b3e87c0055d3.svg" align=left height=50 width=50> Illustrator
-
+- 
 ## <img src="https://user-images.githubusercontent.com/90789003/172520854-7592ac10-f0e9-4007-b746-a484fd7b9a3f.svg" align=left height=50 width=50> Photoshop
 
 ## <img src="https://user-images.githubusercontent.com/90789003/172680200-9b62b6f1-0d13-4ed4-902b-a65d58430504.svg" align=left height=50 width=50> Lightroom Classic
+[Collection Publisher](http://regex.info/blog/lightroom-goodies/collection-publisher) by Jeffrey Friedl
+
+	Allows user to export collections in a folder hierarchy that matches that of your Lightroom collection library instead of amassing the photos in one folder like usual.
 
 ## <img src="https://user-images.githubusercontent.com/90789003/172680327-65cd9379-95c3-424e-bfa2-1dbfd0bd3cd3.svg" align=left height=50 width=50> Acrobat DC
 
