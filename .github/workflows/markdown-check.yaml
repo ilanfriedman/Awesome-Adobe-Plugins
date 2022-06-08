@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Find broken links with linkcheck
-        uses: gaurav-nelson/github-action-markdown-link-check
+        uses: gaurav-nelson/github-action-markdown-link-check@1.0.14
         with:
           check-modified-files-only: "yes"
   spell-check:
@@ -24,7 +24,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Spellcheck
-        uses: rojopolis/spellcheck-github-actions
+        uses: rojopolis/spellcheck-github-actions@0.24.0
         with:
           source-files: README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md
   markdown-lint:
@@ -33,7 +33,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: markdown-lint
-        uses: avto-dev/markdown-lint
+        uses: avto-dev/markdown-lint@v1.5.0
         with: 
           config: '.markdownlint.yaml'
           args: "--fix README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md"
