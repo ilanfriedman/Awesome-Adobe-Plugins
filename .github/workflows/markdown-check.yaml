@@ -1,6 +1,7 @@
 name: Check Markdown
 
-on:
+on: 
+  workflow_dispatch:
   push:
     paths:
       - "README.md"
