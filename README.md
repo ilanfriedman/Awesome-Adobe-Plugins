@@ -104,7 +104,8 @@ Finder</a> by Michael Bungenstock</dt>
 Alright. So there are a couple options for this depending on the plugin, so
 make sure to check the plugin's webpage for specific information. *NOTE: This
 isn't a definitive guide for installing every plugin ever. These are just the
-most common ways I've seen to install them for easy reference when using this list.*
+most common ways I've seen to install them for easy reference when using this
+list.* <!--Gotta love Adobe's unflinching consistency in their products-->
 
 ### Adobe Marketplace (*Newer*)
 
@@ -131,7 +132,7 @@ folder for easy access)
 2. Unzip the plugin file to the applications specific plugin folder (found
 under `%PROGRAM_FILES%\Adobe\<Adobe PROGRAM>\Plug-ins` usually)
 3. Open the application and make sure to enable plugins (if that's an option,
-because sometimes it isn't<!--Gotta love Adobe's unflinching consistency in their products-->)
+because sometimes it isn't)
 
 ### Other
 
