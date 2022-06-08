@@ -1,26 +1,32 @@
 # Awesome Adobe Plugins [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A collection of the most useful plugins for software in the Adobe Creative Cloud suite
+> A collection of the most useful plugins for software in the Adobe Creative
+> Cloud suite
 
 ## Table of Contents
 
--   [Introduction](#introduction)
--   [Illustrator](#-illustrator)
--   [Photoshop](#-photoshop)
--   [Lightroom Classic](#-lightroom-classic)
--   [Acrobat DC](#-acrobat-dc)
--   [Lightroom](#-lightroom)
--   [InDesign](#-indesign)
--   [Premiere Pro](#-premiere-pro)
--   [After Effects](#-after-effects)
--   [Dreamweaver](#-dreamweaver)
--   [Audition](#-audition)
--   [Plugin Installation](#plugin-installation)
--   [Contribute](#contribute)
+* [Introduction](#introduction)
+* [Illustrator](#-illustrator)
+* [Photoshop](#-photoshop)
+* [Lightroom Classic](#-lightroom-classic)
+* [Acrobat DC](#-acrobat-dc)
+* [Lightroom](#-lightroom)
+* [InDesign](#-indesign)
+* [Premiere Pro](#-premiere-pro)
+* [After Effects](#-after-effects)
+* [Dreamweaver](#-dreamweaver)
+* [Audition](#-audition)
+* [Plugin Installation](#plugin-installation)
+* [Contribute](#contribute)
 
 ## Introduction
 
-Just as a little preface, this list is very much a work in progress. At the moment, the list will mostly focus on plugins for _Lightroom Classic_, _Photoshop_, and _Illustrator_ since they're the ones I'm most familiar, but with contributions the list can hopefully expand to cover all Adobe products (at least the ones that support plugins). Anyway. Now that that's over, let's get onto the list.
+Just as a little preface, this list is very much a work in progress. At the
+moment, the list will mostly focus on plugins for *Lightroom Classic*,
+*Photoshop*, and *Illustrator* since they're the ones I'm most familiar, but
+with contributions the list can hopefully expand to cover all Adobe products
+(at least the ones that support plugins). Anyway. Now that that's over, let's
+get onto the list.
 
 ## <img src="https://user-images.githubusercontent.com/90789003/172677589-2bed17dd-147c-4427-a28c-b3e87c0055d3.svg" align=left height=50 width=50> Illustrator
 
@@ -28,18 +34,27 @@ Just as a little preface, this list is very much a work in progress. At the mome
 
 <dl>
 <dt><a href="https://ink.chrometaphore.com/">Ink</a> by Lorenzo Buosi (AKA Chrometaphore)</dt>
-	<dd>Allows users to generate more specific information on layers and objects within them.</dd>
+  <dd>Allows users to generate more specific information on layers and objects
+  within them.</dd>
 </dl>
 
 ## <img src="https://user-images.githubusercontent.com/90789003/172680200-9b62b6f1-0d13-4ed4-902b-a65d58430504.svg" align=left height=50 width=50> Lightroom Classic
 
 <dl>
-<dt><a href="http://regex.info/blog/lightroom-goodies/collection-publisher">Collection Publisher</a> by Jeffrey Friedl</dt>
-	<dd>Allows user to export collections in a folder hierarchy that matches that of your Lightroom collection library instead of amassing the photos in one folder like usual.</dd>
-<dt><a href="http://regex.info/blog/lightroom-goodies/folder-publisher">Folder Publisher</a> by Jeffrey Friedl</dt>
-	<dd>Similarly to Collection Publisher, this exports images based on original folder structure of import</dd>
-<dt><a href="http://www.bungenstock.de/teekesselchen/">Teekesselchen Duplicate Finder</a> by Michael Bungenstock</dt>
-	<dd>Parses image metadata to find and isolate suspected duplicates in a specified "duplicate" collection, then allowing for mass deletion after approving the created collection.</dd>
+<dt><a href="http://regex.info/blog/lightroom-goodies/collection-publisher">Collection
+Publisher</a> by Jeffrey Friedl</dt>
+  <dd>Allows user to export collections in a folder hierarchy that matches that
+  of your Lightroom collection library instead of amassing the photos in one
+  folder like usual.</dd>
+<dt><a href="http://regex.info/blog/lightroom-goodies/folder-publisher">Folder
+Publisher</a> by Jeffrey Friedl</dt>
+  <dd>Similarly to Collection Publisher, this exports images based on original
+  folder structure of import</dd>
+<dt><a href="http://www.bungenstock.de/teekesselchen/">Teekesselchen Duplicate
+Finder</a> by Michael Bungenstock</dt>
+  <dd>Parses image metadata to find and isolate suspected duplicates in a
+  specified "duplicate" collection, then allowing for mass deletion after
+  approving the created collection.</dd>
 
 </dl>
 
@@ -61,9 +76,12 @@ Just as a little preface, this list is very much a work in progress. At the mome
 
 ## Plugin Installation
 
-Alright. So there are a couple options for this depending on the plugin, so make sure to check the plugin's webpage for specific information. _NOTE: This isn't a definitive guide for installing every plugin ever. These are just the most common ways I've seen to install them for easy reference when using this list._
+Alright. So there are a couple options for this depending on the plugin, so
+make sure to check the plugin's webpage for specific information. *NOTE: This
+isn't a definitive guide for installing every plugin ever. These are just the
+most common ways I've seen to install them for easy reference when using this list.*
 
-### Adobe Marketplace (_Newer_)
+### Adobe Marketplace (*Newer*)
 
 1. Open the Creative Cloud Desktop application
 2. Navigate to the "Stock & Marketplace" tab
@@ -72,25 +90,31 @@ Alright. So there are a couple options for this depending on the plugin, so make
 5. Click "Get"
 6. Reopen your desired application
 
-### Plugin Manager (_Older_)
+### Plugin Manager (*Older*)
 
 1. Download the plugin from the author's site
-2. Unzip the plugin file to wherever you want (preferrably a designated plugins folder for easy access)
+2. Unzip the plugin file to wherever you want (preferrably a designated plugins
+folder for easy access)
 3. Open the application
 4. Go to the plugin manager (usually located under the "Plugins" or "File" menus)
 5. Follow the process to locate the plugin and add it to your plugins list
 6. Make sure to enable the plugin after installation
 
-### Plugins Folder (_Older_)
+### Plugins Folder (*Older*)
 
 1. Download the plugin from the author's site
-2. Unzip the plugin file to the applications specific plugin folder (found under `%PROGRAM_FILES%\Adobe\<ADOBE PROGRAM>\Plug-ins` usually)
-3. Open the application and make sure to enable plugins (if that's an option, because sometimes it isn't<!--Gotta love Adobe's unflinching consistency in their products-->)
+2. Unzip the plugin file to the applications specific plugin folder (found
+under `%PROGRAM_FILES%\Adobe\<Adobe PROGRAM>\Plug-ins` usually)
+3. Open the application and make sure to enable plugins (if that's an option,
+because sometimes it isn't<!--Gotta love Adobe's unflinching consistency in their products-->)
 
 ### Other
 
-Every so often, plugins aren't _really_ plugins in the conventional sense and will have their own creative installation process. Just follow the installation instructions on the plugin's site.
+Every so often, plugins aren't *really* plugins in the conventional sense and
+will have their own creative installation process. Just follow the
+installation instructions on the plugin's site.
 
 ## Contribute
 
-Contributions welcome! Please read the [contribution guidelines](./CONTRIBUTING.md) and the [code of conduct](./CODE-OF-CONDUCT.md) first.
+Contributions welcome! Please read the [contribution guidelines](./CONTRIBUTING.md)
+and the [code of conduct](./CODE-OF-CONDUCT.md) first.
