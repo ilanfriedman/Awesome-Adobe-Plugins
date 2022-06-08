@@ -1,0 +1,106 @@
+default: true
+MD001: true
+MD002: false
+MD003:
+  style: atx
+MD004:
+  style: asterisk
+MD005: true
+MD006: true
+MD007:
+  indent: 2
+  start_indented: false
+MD009:
+  br_spaces: 2
+  list_item_empty_lines: false
+  strict: true
+MD010:
+  code_blocks: false
+  spaces_per_tab: 2
+MD011: true
+MD012:
+  maximum: 1
+MD013:
+  line_length: 80
+  heading_line_length: 80
+  code_block_line_length: 120
+  code_blocks: true
+  tables: false
+  headings: true
+  headers: true
+  strict: false
+  stern: false
+MD014: true
+MD018: true
+MD019: true
+MD020: true
+MD021: true
+MD022:
+  lines_above: 1
+  lines_below: 1
+MD023: true
+MD024:
+  siblings_only: true
+MD025:
+  level: 1
+MD026:
+  punctuation: .,;:。，；：！
+MD027: true
+MD028: true
+MD029:
+  style: ordered
+MD030:
+  ul_single: 1
+  ol_single: 1
+  ul_multi: 1
+  ol_multi: 1
+MD031:
+  list_items: false
+MD032: true
+MD033:
+  allowed_elements:
+    - "dd"
+    - "dl"
+    - "dt"
+    - "img"
+    - "a"
+MD034: true
+MD035:
+  style: consistent
+MD036:
+  punctuation: .,;:!?。，；：！？
+MD037: true
+MD038: true
+MD039: true
+MD040: true
+MD041:
+  level: 1
+MD042: true
+MD043: false
+MD044:
+  code_blocks: true
+  names:
+    - Photoshop
+    - Adobe
+    - Illustrator
+    - Lightroom Classic
+    - Lightroom
+    - Acrobat
+    - Acrobat DC
+    - InDesign
+    - Premiere Pro
+    - Premiere
+    - After Effects
+    - Dreamweaver
+    - Audition
+    - XD
+MD045: true
+MD046:
+  style: fenced
+MD047: true
+MD048:
+  style: tilde
+MD049:
+  style: asterisk
+MD050:
+  style: asterisk

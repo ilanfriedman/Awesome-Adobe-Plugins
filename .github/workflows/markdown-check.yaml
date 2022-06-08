@@ -1,0 +1,40 @@
+name: Check Markdown
+
+on:
+  push:
+    paths:
+      - "README.md"
+  pull_request:
+    paths:
+      - "README.md"
+permissions: read-all
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Find broken links with linkcheck
+        uses: gaurav-nelson/github-action-markdown-link-check
+        with:
+          check-modified-files-only: "yes"
+  spell-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Spellcheck
+        uses: rojopolis/spellcheck-github-actions
+        with:
+          source-files: README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: markdown-lint
+        uses: avto-dev/markdown-lint
+        with: 
+          config: '.markdownlint.yaml'
+          args: "--fix README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md"
+        
