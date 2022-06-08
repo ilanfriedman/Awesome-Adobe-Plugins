@@ -1,6 +1,6 @@
 name: Check Markdown
 
-on: 
+on:
   workflow_dispatch:
   push:
     paths:
@@ -16,7 +16,7 @@ jobs:
       - name: Ruby Setup
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: 2.7
       - name: Install awesome_bot
         run: gem install awesome_bot
       - name: Check links with awesomebot
@@ -28,7 +28,10 @@ jobs:
       - name: Spell Check Time!
         uses: rojopolis/spellcheck-github-actions@0.24.0
         with:
-          source-files: README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md
+          task_name: Markdown
+          source_files: README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md
+          output_file: .github/workflows/workflow-output/spellcheck-output.txt
+          config_path: .github/workflows/configs/.spellcheck.yaml
   markdown-lint:
     runs-on: ubuntu-latest
     steps:
@@ -36,5 +39,8 @@ jobs:
       - name: Lint Markdown
         uses: avto-dev/markdown-lint@v1.5.0
         with:
-          config: ".markdownlint.yaml"
-          args: "--fix README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md"
+          config: .github/workflows/configs/.markdownlint.yaml
+          args: "**/*.md"
+          ignore: LICENSE.md
+          fix: true
+          output: .github/workflows/workflow-output/markdownlint-output.txt
