@@ -1,0 +1,29 @@
+name: List Suggestion
+description: Suggest a plugin to be added to the Awesome List
+title: "[Addition]: "
+labels:
+  - addition
+  - suggestion
+body:
+  - type: dropdown
+    id: adobeSoftwareChkbx
+    attributes:
+      label: Adobe Application
+      description: The Adobe application supported by the plugin
+      options:
+        - Lightroom Classic
+        - Photoshop
+        - Illustrator
+        - Etc.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checksAndBalances
+    attributes:
+      label: Other Questions....
+      description: I have no idea what to call this section.
+      options:
+        - label: Does the plugin only work on previous versions?
+          required: false
+        - label: Have you read the Contribution Guidelines?
+          required: true
