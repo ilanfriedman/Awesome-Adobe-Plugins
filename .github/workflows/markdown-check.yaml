@@ -7,21 +7,26 @@ on:
   pull_request:
     paths:
       - "README.md"
-permissions: read-all
 jobs:
   check-links:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.4.2
-      - name: Find broken links with linkcheck
-        uses: gaurav-nelson/github-action-markdown-link-check@1.0.14
+      - name: Ruby Setup
+        uses: actions/setup-ruby@v1
         with:
-          check-modified-files-only: "yes"
+          ruby-version: 2.6.x
+      - name: Check links with awesomebot
+        run: |
+          ruby .github/osia_convert.rb
+          gem install awesome_bot
+          ruby .github/osia_get_links.rb
+          awesome_bot README.md --allow-redirect --base-url="https://github.com/ilanfriedman/Awesome-Adobe-Plugins/blob/master/"
   spell-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.4.2
-      - name: Spellcheck
+      - name: Spell Check Time!
         uses: rojopolis/spellcheck-github-actions@0.24.0
         with:
           source-files: README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md
@@ -29,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.4.2
-      - name: markdown-lint
+      - name: Lint Markdown
         uses: avto-dev/markdown-lint@v1.5.0
         with:
           config: ".markdownlint.yaml"
