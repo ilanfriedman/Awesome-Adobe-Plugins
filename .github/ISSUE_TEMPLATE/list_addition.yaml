@@ -14,16 +14,62 @@ body:
         - Lightroom Classic
         - Photoshop
         - Illustrator
-        - Etc.
+        - Acrobat
+        - Lightroom (not classic)
+        - InDesign
+        - Premiere
+        - After Effects
+        - Dreamweaver
+        - Audition
     validations:
       required: true
+  - type: input
+    id: pluginName
+    attributes:
+      label: Plugin Name
+      description: Provide the name of the plugin
+      placeholder: Insert cool plugin name here
+    validations:
+      required: true
+  - type: input
+    id: pluginAuthor
+    attributes:
+      label: Plugin Author
+      description: Provide the name/social media handle/spy codename/ of the plugin's creator
+      placeholder: Bond, James Bond
+    validations:
+      required: true
+  - type: input
+    id: pluginURL
+    attributes:
+      label: Plugin URL
+      description: Provide the link to the site distributing the plugin
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: textarea
+    id: basicDescription
+    attributes:
+      label: Plugin Description
+      description: Provide a few sentence description describing what the plugin does (and optionally what you personally like about it)
+      placeholder: Put plugin description here, please.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Plugin Information
+      options:
+        - label: Do you have to pay for the plugin?
+          required: false
+        - label: Is the plugin only for previous versions/editions/whatever of the application?
+          required: false
   - type: checkboxes
     id: checksAndBalances
     attributes:
       label: Other Questions....
       description: I have no idea what to call this section.
       options:
-        - label: Does the plugin only work on previous versions?
-          required: false
-        - label: Have you read the Contribution Guidelines?
+        - label: Have you read the Contribution Guidelines? (If not you should really do that)
+          required: true
+        - label: Have you read the Code of Conduct? (You should really do this too)
           required: true
