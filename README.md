@@ -41,4 +41,4 @@
 
 ## Contribute
 
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+Contributions welcome! Please read the [contribution guidelines](./CONTRIBUTING.md) and the [code of conduct](./CODE-OF-CONDUCT.md) first.
