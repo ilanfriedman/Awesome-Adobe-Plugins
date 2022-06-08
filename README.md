@@ -18,6 +18,7 @@
 * [After Effects](#after-effects)
 * [Dreamweaver](#dreamweaver)
 * [Audition](#audition)
+* [XD](#xd)
 * [Plugin Installation](#plugin-installation)
 * [Contribute](#contribute)
 
