@@ -32,7 +32,7 @@ jobs:
       - name: Install CSpell
         run: npm install -g cspell
       - name: Run CSpell
-        run: cspell --config ./.github/workflows/configs/.cspell.yaml "**/*.md" --show-suggestions --git-ignore
+        run: cspell --config ./.github/workflows/configs/.cspell.yaml "**/*.md" --show-suggestions
   markdown-lint:
     runs-on: ubuntu-latest
     steps:
