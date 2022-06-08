@@ -15,6 +15,7 @@
 -   [After Effects](#-after-effects)
 -   [Dreamweaver](#-dreamweaver)
 -   [Audition](#-audition)
+-   [Plugin Installation](#plugin-installation)
 -   [Contribute](#contribute)
 
 ## Introduction
