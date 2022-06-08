@@ -1,4 +1,4 @@
-# Awesome Adobe Plugins [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Adobe Plugins ![Awesome](https://awesome.re/badge.svg)
 
 > A collection of the most useful plugins for software in the Adobe Creative
 > Cloud suite
