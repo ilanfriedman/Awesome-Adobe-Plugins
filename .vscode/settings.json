@@ -3,5 +3,8 @@
         "README.md": ["## Table of Contents"]
     },
     "markdown.extension.toc.levels": "2..6",
-    "markdownlint.ignore": ["LICENSE.md"]
+    "markdownlint.ignore": ["LICENSE.md"],
+    "markdownlint.config": {
+        "extends": ".github/workflows/configs/.markdownlint.yaml"
+    }
 }

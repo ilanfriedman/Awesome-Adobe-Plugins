@@ -4,7 +4,9 @@ matrix:
       lang: en
     dictionary:
       wordlists:
-        - .github/workflows/configs/wordlists/dictionary.txt
+        - .github/workflows/configs/wordlists/author-names.txt
+        - .github/workflows/configs/wordlists/project-names.txt
+        - .github/workflows/configs/wordlists/brand-names.txt
       encoding: utf-8
     pipeline:
       - pyspelling.filters.markdown:
@@ -14,6 +16,7 @@ matrix:
             - code
             - pre
     sources:
-      - "!**/LICENSE.md"
-      - "**/*.md"
+      - "**/README.md"
+      - "**/CODE-OF-CONDUCT.md"
+      - "**/CONTRIBUTING.md"
     default_encoding: utf-8

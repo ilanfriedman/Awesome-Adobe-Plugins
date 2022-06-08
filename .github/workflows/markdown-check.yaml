@@ -30,7 +30,6 @@ jobs:
         with:
           task_name: Markdown
           source_files: README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md
-          output_file: .github/workflows/.workflow-output/spellcheck-output.txt
           config_path: .github/workflows/configs/.spellcheck.yaml
   markdown-lint:
     runs-on: ubuntu-latest
