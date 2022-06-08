@@ -8,9 +8,9 @@ project you agree to abide by its terms.
 
 Ensure your pull request adheres to the following guidelines:
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+- Suggested plugin has been tested and is *not* a virus
+- Plugin should actually be able to do the things claimed in the description provided by your pull request (*NOTE: stated function should be the main goal of the plugin and not an unintended side effect*)
+- Please don't suggest anything NSFW. I'm not sure how that would work, but rule 34 exists so I have to cover my rear ~~ass~~.
 
 Thank you for your suggestions!
 
