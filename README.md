@@ -32,20 +32,6 @@
 
 ## <img src="https://user-images.githubusercontent.com/90789003/172680016-4c7f8bf3-1368-472b-b716-08623ef7569e.svg" align=left height=50 width=50> Audition
 
-About this section. Optional. Keep this short and focus on the list.
-
-- [List item](http://example.com)
-- [List item](http://example.com)
-
-
-## Another Section
-
-### Subsection
-
-- [List item](http://example.com)
-- [List item](http://example.com)
-
-
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
