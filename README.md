@@ -3,6 +3,8 @@
 > A collection of the most useful plugins for software in the Adobe Creative
 > Cloud suite
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ilanfriedman/awesome-adobe-plugins/Check%20Markdown?label=Markdown%20Lint&logo=Markdown&style=flat-square)
+
 ## Table of Contents
 
 * [Introduction](#introduction)
