@@ -1,8 +1,8 @@
 name: List Suggestion
 description: Suggest a plugin to be added to the Awesome List
-title: "[Addition]: <pluginName>"
+title: "[Addition]: <plugin name>"
+assignees: ilanfriedman
 labels:
-  - addition
   - suggestion
 body:
   - type: dropdown
