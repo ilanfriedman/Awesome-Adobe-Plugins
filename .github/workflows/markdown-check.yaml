@@ -16,12 +16,10 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
+      - name: Install awesome_bot
+        run: gem install awesome_bot
       - name: Check links with awesomebot
-        run: |
-          ruby .github/osia_convert.rb
-          gem install awesome_bot
-          ruby .github/osia_get_links.rb
-          awesome_bot README.md --allow-redirect --base-url="https://github.com/ilanfriedman/Awesome-Adobe-Plugins/blob/master/"
+        run: awesome_bot README.md --allow-redirect --base-url="https://github.com/ilanfriedman/Awesome-Adobe-Plugins/blob/master/"
   spell-check:
     runs-on: ubuntu-latest
     steps:
