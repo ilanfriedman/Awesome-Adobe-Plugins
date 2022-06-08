@@ -34,7 +34,6 @@ jobs:
         uses: actions/checkout@master
       - name: markdown-lint
         uses: avto-dev/markdown-lint@v1.5.0
-        with: 
-          config: '.markdownlint.yaml'
+        with:
+          config: ".markdownlint.yaml"
           args: "--fix README.md CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE.md"
-        
