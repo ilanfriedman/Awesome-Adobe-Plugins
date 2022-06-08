@@ -1,6 +1,6 @@
 name: List Suggestion
 description: Suggest a plugin to be added to the Awesome List
-title: "[Addition]: "
+title: "[Addition]: <pluginName>"
 labels:
   - addition
   - suggestion
@@ -48,7 +48,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: basicDescription
+    id: pluginDescription
     attributes:
       label: Plugin Description
       description: Provide a few sentence description describing what the plugin does (and optionally what you personally like about it)
