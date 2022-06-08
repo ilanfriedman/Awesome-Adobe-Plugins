@@ -9,7 +9,8 @@
 - [Another Section](#another-section)
 
 
-## Section
+## <img src="https://user-images.githubusercontent.com/90789003/172520854-7592ac10-f0e9-4007-b746-a484fd7b9a3f.svg" align=left height=50 width=50> Photoshop
+
 
 About this section. Optional. Keep this short and focus on the list.
 
