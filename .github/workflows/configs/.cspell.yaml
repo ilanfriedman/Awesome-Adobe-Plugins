@@ -7,8 +7,6 @@ dictionaryDefinitions:
     path: ".github/workflows/configs/wordlists/other-words.txt"
   - name: project-names
     path: ".github/workflows/configs/wordlists/project-names.txt"
-ignorePaths:
-  - "LICENSE.md"
 dictionaries:
   - author-names
   - brand-names
